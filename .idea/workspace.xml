@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa694c4-e169-491b-8947-fdbabaecca8c" name="Changes" comment="" />
+    <list default="true" id="7fa694c4-e169-491b-8947-fdbabaecca8c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/docs/SortInsertion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/Bubble_Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorter/Bubble_Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/SortInsertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorter/SortInsertion.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Ninjaxd021"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Ninjaxd021/Sorter.git",
+    "accountId": "dd524580-10ba-4bd6-adbd-471d32562dae"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
