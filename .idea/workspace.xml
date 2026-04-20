@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa694c4-e169-491b-8947-fdbabaecca8c" name="Changes" comment="Bubble sort enter in class">
-      <change afterPath="$PROJECT_DIR$/src/Selection_Sort/selectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BubbleSort/BubbleSort" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bubble_Sort/BubbleSort" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BubbleSort/Bubble_Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bubble_Sort/Bubble_Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortInsertion/SortInsertion" beforeDir="false" afterPath="$PROJECT_DIR$/src/Insertion_Sort/SortInsertion" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortInsertion/SortInsertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Insertion_Sort/SortInsertion.java" afterDir="false" />
-    </list>
+    <list default="true" id="7fa694c4-e169-491b-8947-fdbabaecca8c" name="Changes" comment="Selection Sort, add a new algorithm to improve my ledgment" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +32,9 @@
     &quot;accountId&quot;: &quot;dd524580-10ba-4bd6-adbd-471d32562dae&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -169,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776576605422</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Selection Sort, add a new algorithm to improve my ledgment">
+      <option name="closed" value="true" />
+      <created>1776647515669</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776647515669</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +182,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding the documentation" />
     <MESSAGE value="Bubble sort enter in class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bubble sort enter in class" />
+    <MESSAGE value="Selection Sort, add a new algorithm to improve my ledgment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selection Sort, add a new algorithm to improve my ledgment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
