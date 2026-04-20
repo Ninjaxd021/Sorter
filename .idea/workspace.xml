@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa694c4-e169-491b-8947-fdbabaecca8c" name="Changes" comment="Bubble sort enter in class" />
+    <list default="true" id="7fa694c4-e169-491b-8947-fdbabaecca8c" name="Changes" comment="Bubble sort enter in class">
+      <change afterPath="$PROJECT_DIR$/src/Selection_Sort/selectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BubbleSort/BubbleSort" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bubble_Sort/BubbleSort" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BubbleSort/Bubble_Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bubble_Sort/Bubble_Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortInsertion/SortInsertion" beforeDir="false" afterPath="$PROJECT_DIR$/src/Insertion_Sort/SortInsertion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortInsertion/SortInsertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Insertion_Sort/SortInsertion.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,18 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Ninjaxd021"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ninjaxd021&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Ninjaxd021/Sorter.git",
-    "accountId": "dd524580-10ba-4bd6-adbd-471d32562dae"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ninjaxd021/Sorter.git&quot;,
+    &quot;accountId&quot;: &quot;dd524580-10ba-4bd6-adbd-471d32562dae&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -46,6 +53,7 @@
     "Application.Bubble_Sort.executor": "Debug",
     "Application.Main.executor": "Debug",
     "Application.SortInsertion.executor": "Debug",
+    "Application.selectionSort.executor": "Debug",
     "Downloaded.Files.Path.Enabled": "false",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
@@ -53,12 +61,13 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Joan Monte/IdeaProjects/TEST/src/BubbleSort",
+    "last_opened_file_path": "C:/Users/Joan Monte/IdeaProjects/TEST/src/SelectionSort",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,13 +79,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Joan Monte\IdeaProjects\TEST\src\SelectionSort" />
       <recent name="C:\Users\Joan Monte\IdeaProjects\TEST\src\BubbleSort" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Joan Monte\IdeaProjects\TEST\src\SortInsertion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bubble_Sort (1)">
+  <component name="RunManager" selected="Application.selectionSort">
     <configuration name="Bubble_Sort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="Bubble_Sort" />
@@ -109,8 +119,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="selectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="selectionSort" />
+      <module name="Organização e Manipulação em Estruturas de Dados" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.selectionSort" />
         <item itemvalue="Application.Bubble_Sort (1)" />
         <item itemvalue="Application.SortInsertion" />
         <item itemvalue="Application.Bubble_Sort" />
@@ -142,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776576528661</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Bubble sort enter in class">
+      <option name="closed" value="true" />
+      <created>1776576605422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776576605422</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
