@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa694c4-e169-491b-8947-fdbabaecca8c" name="Changes" comment="Selection Sort, add a new algorithm to improve my ledgment" />
+    <list default="true" id="7fa694c4-e169-491b-8947-fdbabaecca8c" name="Changes" comment="Removing files, and organize them">
+      <change afterPath="$PROJECT_DIR$/src/quickSort/quickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +24,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;
+    }
+  ],
   &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Ninjaxd021&quot;
+    &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">{
@@ -49,6 +56,7 @@
     "Application.Bubble_Sort.executor": "Debug",
     "Application.Main.executor": "Debug",
     "Application.SortInsertion.executor": "Debug",
+    "Application.quickSort.executor": "Debug",
     "Application.selectionSort.executor": "Debug",
     "Downloaded.Files.Path.Enabled": "false",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -82,7 +90,7 @@
       <recent name="C:\Users\Joan Monte\IdeaProjects\TEST\src\SortInsertion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.selectionSort">
+  <component name="RunManager" selected="Application.quickSort">
     <configuration name="Bubble_Sort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="Bubble_Sort" />
@@ -99,17 +107,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SortInsertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="SortInsertion" />
       <module name="Organização e Manipulação em Estruturas de Dados" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortInsertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="quickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="SortInsertion" />
+      <option name="MAIN_CLASS_NAME" value="quickSort" />
       <module name="Organização e Manipulação em Estruturas de Dados" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.quickSort" />
         <item itemvalue="Application.selectionSort" />
         <item itemvalue="Application.Bubble_Sort (1)" />
         <item itemvalue="Application.SortInsertion" />
         <item itemvalue="Application.Bubble_Sort" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776647515669</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Removing files, and organize them">
+      <option name="closed" value="true" />
+      <created>1776647589437</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776647589437</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +199,8 @@
     <MESSAGE value="Adding the documentation" />
     <MESSAGE value="Bubble sort enter in class" />
     <MESSAGE value="Selection Sort, add a new algorithm to improve my ledgment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selection Sort, add a new algorithm to improve my ledgment" />
+    <MESSAGE value="Removing files, and organize them" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing files, and organize them" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
