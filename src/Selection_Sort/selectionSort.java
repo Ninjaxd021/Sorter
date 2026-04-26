@@ -1,3 +1,9 @@
+/*
+Scan the end array to begin. In the loop,
+we created another loop running from the beginning to scan the beginning,
+ verifying the values and what the highest value defining it is.
+ After that, we change the last value to the highest value.
+ */
 
 void printArranjo(int[] Arranjo){
 

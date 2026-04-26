@@ -1,4 +1,15 @@
-// Array ordering, low computation quality;
+/*
+ Array ordering, low computation quality;
+
+     Insertion Sort is an algorithm that analyzes data and sort it to improve
+visualization and optimization in other codes.
+    In my opinion, this algorithm, with sorts data by scan and checking previous values,
+based on this information, is not suitable in most cases, as it makes scanning difficult, have
+there are other, more effective methods.
+*
+*/
+
+
 int[] sortInsertion(int []Numbers){
 
    int index,size,temp,j,valorAncora;

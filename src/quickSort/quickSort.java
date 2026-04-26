@@ -1,4 +1,9 @@
-
+/*
+Selecting the pivot and verifying the vector in the left down values about the pivot and
+the right high values about the pivot,
+recursively the algorithm sends the right organization pivot and the left organization pivot.
+When the array is completely sorted, the algorithm stops.
+ */
 void printArray(int[] Arranjo) {
 
     for (int i: Arranjo) {
