@@ -1,7 +1,5 @@
 /*
 
-
-
 */
 
 
@@ -12,6 +10,8 @@ void printArray( int[] arranjo ){
         IO.print(i+" ");
 
     }
+
+    IO.println();
 
 }
 
@@ -27,10 +27,15 @@ int[] merge(int[] arranjoA, int[] arranjoB){
 
         if (indexA > arranjoA.length - 1) {
 
-            p_result[i] = arranjoA[indexA];
+            p_result[i] = arranjoB[indexB];
             indexB++;
 
-        } if (arranjoA[indexA] < arranjoB[indexB]) {
+        } else if (indexB > arranjoB.length - 1) {
+
+            p_result[i] = arranjoA[indexA];
+            indexA++;
+
+        } else if (arranjoA[indexA] < arranjoB[indexB]) {
 
             p_result[i] = arranjoA[indexA];
             indexA++;
@@ -52,8 +57,8 @@ int[] merge_sort(int[] arranjo){
     if (arranjo.length > 1) {
 
         int tamanho_A = arranjo.length / 2;
-        int inicio_B = tamanho_A;
         int tamanho_B = arranjo.length - tamanho_A;
+        int inicio_B = tamanho_A;
         int[] p_result;
 
         int[] p_arranjoA = new int[tamanho_A];
@@ -67,6 +72,8 @@ int[] merge_sort(int[] arranjo){
 
         p_result = merge(p_arranjoA, p_arranjoB);
 
+        return p_result;
+
     }
 
     return arranjo;
@@ -75,11 +82,11 @@ int[] merge_sort(int[] arranjo){
 
 void main() {
 
-    int[] arranjoRandom = {10,5,18,17,3,2,8,1};
+    int[] arranjoRandom = {10, 5, 18, 17, 3, 2, 8, 1};
     int tamanho = arranjoRandom.length;
 
     printArray(arranjoRandom);
     int[] p_sorted = merge_sort(arranjoRandom);
-    printArray(arranjoRandom);
+    printArray(p_sorted);
 
 }
