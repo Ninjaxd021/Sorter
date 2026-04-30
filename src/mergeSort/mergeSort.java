@@ -58,14 +58,13 @@ int[] merge_sort(int[] arranjo){
 
         int tamanho_A = arranjo.length / 2;
         int tamanho_B = arranjo.length - tamanho_A;
-        int inicio_B = tamanho_A;
         int[] p_result;
 
         int[] p_arranjoA = new int[tamanho_A];
         int[] p_arranjoB = new int[tamanho_B];
 
         System.arraycopy(arranjo, 0, p_arranjoA, 0, tamanho_A);
-        System.arraycopy(arranjo, inicio_B, p_arranjoB, 0, tamanho_B);
+        System.arraycopy(arranjo, tamanho_A, p_arranjoB, 0, tamanho_B);
 
         p_arranjoA = merge_sort(p_arranjoA);
         p_arranjoB = merge_sort(p_arranjoB);
@@ -83,7 +82,6 @@ int[] merge_sort(int[] arranjo){
 void main() {
 
     int[] arranjoRandom = {10, 5, 18, 17, 3, 2, 8, 1};
-    int tamanho = arranjoRandom.length;
 
     printArray(arranjoRandom);
     int[] p_sorted = merge_sort(arranjoRandom);
