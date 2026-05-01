@@ -2,7 +2,6 @@
 
 */
 
-
 void printArray( int[] arranjo ){
 
     for ( int i:arranjo ){
